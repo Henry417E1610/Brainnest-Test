@@ -7,6 +7,9 @@ class Calculator {
 
     };
     divide(a,b){
+        if (b===0){
+            return NaN;
+        }
         return a / b
     };
     multiply(a,b){
