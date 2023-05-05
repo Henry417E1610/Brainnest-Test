@@ -1,6 +1,6 @@
 # Brainnest-Test
 
-Making tests for the followings by JavaScript:
+## Making tests for the followings by JavaScript:
 
 ➡️ Capitalize String
 
