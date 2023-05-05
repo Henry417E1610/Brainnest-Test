@@ -15,6 +15,6 @@ test('I can multiply two numbers',()=>{
 test('I may get decimals by division',()=>{
     expect(calculator.divide(3,2)).toBe(1.5);
 });
-test('I cannot get answer by dividing zero',()=>{
+test('I cannot get answer for values divided by zero',()=>{
     expect(calculator.divide(3,0)).toBe(NaN);
 });
