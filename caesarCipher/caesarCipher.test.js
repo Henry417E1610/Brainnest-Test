@@ -15,4 +15,7 @@ test('punctuation is not shifted',()=>{
 });
 test('spaces are not shifted',()=>{
     expect(caesarCipher('I live here',3)).toBe('L olyh khuh');
+});
+test('caesarCipher can encode backward',()=>{
+    expect(caesarCipher('I live here',-2)).toBe('G jgtc fcpc');
 })
